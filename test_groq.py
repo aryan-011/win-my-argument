@@ -3,7 +3,7 @@ import re
 from groq import Groq
 from typing import List
 
-# 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
+
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
